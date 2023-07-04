@@ -11,10 +11,13 @@ Output: Yes
 The string can be segmented as "i like samsung"
 or "i like sam sung".<>
 */
+import java.util.Scanner;
 public class L2_47 {
 	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		String input=scan.nextLine();
 		String Arr[]= { "i", "like", "sam", "sung", "samsung", "mobile", "ice","cream", "icecream", "man", "go", "mango"};
-
+       
 	}
 
 }
