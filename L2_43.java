@@ -19,7 +19,7 @@ public class L2_43 {
 			sum+=RevNum;
 			Num=Num/10;
 		}
-		System.out.println(sum);
+		//System.out.println(sum);
 	
 		System.out.println(((sum==1||sum==2)||(sum%2!=0&&sum%3!=0)?"TWISTED PRIME NUMBER":"NOT A PRIME NUMBER"));
 
