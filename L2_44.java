@@ -1,9 +1,4 @@
 
-/*44.Given an array A[] and a number x, check for pair in A[] with sum as x.
-Eg : Input {1, 2, 4, 3, 5, 6}
-SUM : 5
-Output : 2 (1, 4) & (2, 3)*/
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.LinkedHashSet;
 
