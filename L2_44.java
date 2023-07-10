@@ -18,7 +18,7 @@ public class L2_44 {
 			System.out.print("Enter the " + i + " Number of Array :");
 			Arr[i] = scan.nextInt();
 		}
-		System.out.print("Enter the Sum :");
+	System.out.print("Enter the Sum :");
 		int sum = scan.nextInt();
 		int count=0;
 	 for(int i=0;i<n;i++) {
