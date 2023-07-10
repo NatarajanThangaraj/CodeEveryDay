@@ -15,9 +15,28 @@ import java.util.Scanner;
 public class L2_47 {
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
+		String Answer="";
+		boolean flag=false;
+		System.out.print("Enter the String :");
 		String input=scan.nextLine();
 		String Arr[]= { "i", "like", "sam", "sung", "samsung", "mobile", "ice","cream", "icecream", "man", "go", "mango"};
-       
+		for(int i=0;i<Arr.length;i++) {
+			String str=input.replace(Arr[i], "");	
+			if(!str.equals(input)) {
+		 if((i!=0||i!=Arr.length-1)&&(Arr[i].concat(Arr[i-1]).equals(Arr[i+1])))
+			 break;
+		 Answer+=Arr[i]+" ";
+	 
+		 
+				flag=true;	
+			}
+			else 
+				flag=false;
+			
+		}
+		scan.close();
+		System.out.println(flag);
+		System.out.println("The string was segmented as : "+Answer);
 	}
 
 }
