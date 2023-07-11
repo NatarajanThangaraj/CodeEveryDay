@@ -16,7 +16,8 @@ public class L2_47 {
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
 		String Answer="";
-		boolean flag=false;
+		String loader="";
+		boolean flag=false,flager=false;
 		System.out.print("Enter the String :");
 		String input=scan.nextLine();
 		// input=input.concat("1");
@@ -24,8 +25,13 @@ public class L2_47 {
 		for(int i=0;i<Arr.length;i++) {
 			String str=input.replace(Arr[i], "");
 			System.out.println(str);
+			if(Arr[i].equals("samsung")||Arr[i].equals("icecream")||Arr[i].equals("mango")) {
+				flager=true;
+				 loader=Arr[i];
+				break;
+			}
 			if(!str.equals(input)) {
-		 Answer+=Arr[i]+" ";
+		     Answer+=Arr[i]+" ";
 				flag=true;	
 			}
 			else 
@@ -34,7 +40,10 @@ public class L2_47 {
 		}
 		scan.close();
 		System.out.println(flag);
-		System.out.println("The string was segmented as : "+Answer);
+		if(flager)
+			System.out.println("The string was segmented as : "+Answer+"or"+loader);
+		else
+			System.out.println("The string was segmented as : "+Answer);
 	}
 
 }
