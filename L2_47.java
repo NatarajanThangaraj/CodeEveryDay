@@ -19,15 +19,13 @@ public class L2_47 {
 		boolean flag=false;
 		System.out.print("Enter the String :");
 		String input=scan.nextLine();
+		// input=input.concat("1");
 		String Arr[]= { "i", "like", "sam", "sung", "samsung", "mobile", "ice","cream", "icecream", "man", "go", "mango"};
 		for(int i=0;i<Arr.length;i++) {
-			String str=input.replace(Arr[i], "");	
+			String str=input.replace(Arr[i], "");
+			System.out.println(str);
 			if(!str.equals(input)) {
-		 if((i!=0||i!=Arr.length-1)&&(Arr[i].concat(Arr[i-1]).equals(Arr[i+1])))
-			 break;
 		 Answer+=Arr[i]+" ";
-	 
-		 
 				flag=true;	
 			}
 			else 
