@@ -10,7 +10,7 @@ Output : 4 2 12 8 0 0 0 0 0 0*/
 import java.util.Arrays;
 
 public class L2_42 {
-int input[]= {0,2,2,2,0,6,6,0,8};
+int input[]= {2,-1,-3,-3,0,2};
 int output[]=new int[input.length];
 String Answer;
 int count=0;
