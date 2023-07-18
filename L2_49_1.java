@@ -4,9 +4,7 @@ Eg: arr[] = { 0, 2, 2, 2, 0, 6, 6, 0, 8}
 Output: 4 2 12 8 0 0 0 0 0 .*/
 
 import java.util.Arrays;
-
 import javax.lang.model.util.ElementScanner14;
-
 public class L2_49_1 {
   public static void main(String []args) {
 	int arr[]= {0,1,2,3,4,6,7,8,9,9};
