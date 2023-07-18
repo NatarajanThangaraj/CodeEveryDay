@@ -19,16 +19,12 @@ public class L2_38 {
 						Arr[i] = Arr[j] = Arr[k] = 0;
 						break loop1;
 					}
-
 				}
-
 			}
 			if (i == Arr.length - 1)
 				System.out.println("Sorry!we unable to built the " + height + " height tower using 3 blocks");
 		}
-
 	}
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		L2_38 l238 = new L2_38();
@@ -47,5 +43,4 @@ public class L2_38 {
 		l238.Finder(arr, secondTower);
 		scan.close();
 	}
-
 }
