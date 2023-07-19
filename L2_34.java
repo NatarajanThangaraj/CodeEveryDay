@@ -10,7 +10,6 @@ I/P:
 7 8 9
 O/P: 38*/
 import java.util.Scanner;
-
 public class L2_34 {
 	public int Matrix(int n) {
 		int sum = 0;
