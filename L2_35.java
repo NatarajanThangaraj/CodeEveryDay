@@ -7,7 +7,6 @@ I/P: 4
 4 9 2 1
 1 2
 O/P: 50856*/
-import java.util.Arrays;
 import java.util.Scanner;
 public class L2_35 {
 	static Scanner scan=new Scanner(System.in);
