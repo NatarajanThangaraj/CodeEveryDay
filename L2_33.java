@@ -10,9 +10,8 @@ public class L2_33 {
 		String Answer="";
 		int min=str1.indexOf(str2.charAt(0)), max=str1.indexOf(str2.charAt(0));
 		for(int i=1;i<str2.length();i++) {
-		int temp,temp1;
-		temp=str1.indexOf(str2.charAt(i));
-		temp1=str1.indexOf(str2.charAt(i));
+		int temp=str1.indexOf(str2.charAt(i));
+		int temp1=str1.indexOf(str2.charAt(i));
 		if(temp<min)
 			min=temp;
 		if(temp1>max)
