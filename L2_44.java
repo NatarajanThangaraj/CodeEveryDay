@@ -1,7 +1,9 @@
-
+/*44.Given an array A[] and a number x, check for pair in A[] with sum as x.
+Eg : Input {1, 2, 4, 3, 5, 6}
+SUM : 5
+Output : 2 (1, 4) & (2, 3)*/
 import java.util.Scanner;
 import java.util.LinkedHashSet;
-
 public class L2_44 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -10,7 +12,7 @@ public class L2_44 {
 		int n = scan.nextInt();
 		int Arr[] = new int[n];
 		for (int i = 0; i < n; i++) {
-			System.out.print("Enter the " + i + " Number of Array :");
+			System.out.print("Enter the " + (i+1) + " Number of Array :");
 			Arr[i] = scan.nextInt();
 		}
 	System.out.print("Enter the Sum :");
