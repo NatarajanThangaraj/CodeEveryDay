@@ -1,14 +1,4 @@
 
-/*34.
- *  Matrix Diagonal sum
-Given a matrix print the largest of the sums of the two triangles split by diagonal from top right to bottom l
-eft
-I/P:
-3 3
-1 2 3
-4 5 6
-7 8 9
-O/P: 38*/
 import java.util.Scanner;
 
 public class L2_34 {
