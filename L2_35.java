@@ -24,7 +24,6 @@ public class L2_35 {
 		}
 		System.out.println("output : "+Sum);
 	}
-
 	public static void main(String[] args) {
 		L2_35 l235=new L2_35();
 		System.out.print("Enter How Many Array you give :");
