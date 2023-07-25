@@ -4,19 +4,22 @@ import java.util.Scanner;
 public class L2_28 {
 	public String removeSpecChar(String str) {
 		String Model="";
+		int count=1;
 		for(int i=0;i<str.length();i++) {
-			char n=str.charAt(i);
 			char a=Character.toUpperCase(str.charAt(i));
 			if(a>=65&&a<=90) {
-				for(int j=str.length()-1;j>=0;j--) {
+				for(int j=str.length()-count;j>=0;j--) {
 					char b=Character.toUpperCase(str.charAt(j));
-				if(b<=65||b>=90)
-					continue;
-				else 
-					 n=str.charAt(j);
-				Model+=n;
+					if(b<65||b>90) {
+						count++;
+						continue;
+					}
+					else {
+						Model+=str.charAt(j);
+						count++;
+						break;
+					}
 				}
-				
 			}
 			else
 				Model+=str.charAt(i);
