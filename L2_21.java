@@ -11,14 +11,14 @@ array like Matrix ).
         Scanner scan=new Scanner(System.in);
         System.out.print("Enter the Number of Rows : ");
         int length=scan.nextInt();
-        int count=1;
+        int count=0;
         for(int i=0;i<length;i++){
              for(int j=0;j<length;j++){
                 if(i%2!=0){
-                    System.out.print(--count+" ");    
+                    System.out.print(count--+" ");    
                 }
                 else{
-                    System.out.print(count++ +" ");
+                    System.out.print(++count +" ");
                 }
                 if(j==(length-1))
                      count=count+length;
@@ -26,5 +26,6 @@ array like Matrix ).
         }
         System.out.println();
     }
+        scan.close();
  }
 }

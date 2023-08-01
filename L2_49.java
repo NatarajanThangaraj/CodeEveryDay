@@ -22,6 +22,7 @@ public class L2_49 {
         }   
 }
 System.out.println("Expected output : "+s2);
+scan.close();
 }  
 }
 
