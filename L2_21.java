@@ -15,10 +15,10 @@ array like Matrix ).
         for(int i=0;i<length;i++){
              for(int j=0;j<length;j++){
                 if(i%2!=0){
-                    System.out.print(count--+" ");    
+                    System.out.printf("%2d ",count--);    
                 }
                 else{
-                    System.out.print(++count +" ");
+                    System.out.printf("%2d ",++count );
                 }
                 if(j==(length-1))
                      count=count+length;
